@@ -1,5 +1,5 @@
 def bubble_sort(alist):
-    for passnum in range(len(alist)-1,0,-1):
+    for passnum in range(len(alist)-1,0,-1):#here we sort from range lenth of list to 0 
         for i in range(passnum):
             if alist[i]>alist[i+1]:
                 
